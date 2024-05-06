@@ -1,0 +1,16 @@
+
+
+.emojiRight{
+   
+    width: $width;
+    background-color: $color3;
+
+}
+.rightCircle{
+    height: $rightsize;
+    width: $rightsize;
+    
+    border-radius:$rightsize; 
+    border: 10px solid black;
+   visibility: hidden;
+}

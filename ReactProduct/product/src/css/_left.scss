@@ -1,0 +1,16 @@
+.left{
+    img{
+        width: 100px;
+        border: 3px solid white;
+        
+        border-radius: 5px;
+       &:hover{
+        border: 3px solid rgb(53, 180, 223);
+        
+        border-radius: 5px;
+       }
+    }
+    .btn{
+        width: 130px;
+    }
+}

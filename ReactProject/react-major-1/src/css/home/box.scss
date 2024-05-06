@@ -1,0 +1,20 @@
+
+@mixin color($color,$bgcolor){
+    color: $color;
+    background-color: $bgcolor;
+}
+
+.box{
+    height: 180px;
+   
+    width: 180px;
+    &:nth-of-type(odd){
+       @include color($color3,$color1)
+    }
+    &:nth-of-type(even){
+        @include color($color1,$color3)
+    }
+}
+.boxContainer{
+    height: 70vh;
+}

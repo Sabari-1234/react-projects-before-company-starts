@@ -1,0 +1,24 @@
+.head{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    color: $color1;
+    text-shadow: 2px 2px 2px grey;
+    font-size:50px;
+    animation-name: head;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes head{
+    0%{
+        transform: rotateZ(5deg);
+    }
+    50%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(-5deg);
+    }
+}

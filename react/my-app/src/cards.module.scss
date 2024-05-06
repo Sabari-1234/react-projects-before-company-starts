@@ -1,0 +1,19 @@
+.A{
+    text-align: center;
+  }
+  
+  .a{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 2px rgb(189, 182, 182);
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+  @media (max-width:700px){
+    .a{
+      width:45%;
+      display: inline-block;
+    }
+  }
+ 
